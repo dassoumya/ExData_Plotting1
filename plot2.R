@@ -1,7 +1,7 @@
-setwd("/Users/soumyadas/Desktop/Coursera/Exploratory Graphs/Review 1/ExData_Plotting1/")
+setwd("./ExData_Plotting1/")
 
 # Load Data from file
-electComsumpt <- read.table("/Users/soumyadas/Desktop/Coursera/Exploratory Graphs/Review 1/household_power_consumption.txt", sep = ";",colClasses = c(rep("character",9)) , na.strings = "?", header = TRUE, dec = ".")
+electComsumpt <- read.table("./household_power_consumption.txt", sep = ";",colClasses = c(rep("character",9)) , na.strings = "?", header = TRUE, dec = ".")
 
 #electComsumpt$Date <- as.Date(electComsumpt$Date, "%d/%m/%Y")
 #electComsumpt$Time <- strptime(electComsumpt$Time, "%H:%M:%S")
